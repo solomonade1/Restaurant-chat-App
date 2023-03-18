@@ -1,6 +1,6 @@
 const config = {
   botName: process.env.BOT_NAME,
-  PORT: process.env.PORT,
+  PORT: process.env.PORT || 8080,
   mongoURL: process.env.MONGO_URL,
   sessionSecret: process.env.sessionSecret || "Hello",
   local_db: process.env.local_db,
