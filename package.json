@@ -16,6 +16,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js"
   },
+   "engines": {
+    "node": ">=14 <15"
+  },
   "keywords": [
     "bot",
     "restaurant",
@@ -27,3 +30,4 @@
   "author": "akinsdev",
   "license": "ISC"
 }
+
