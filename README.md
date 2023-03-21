@@ -1,9 +1,10 @@
 # Akins Restaurant ChatBot
 
 A restaurant chatbot that will assist customers in placing orders for their preferred meals. The main idea is to let customers to send options and the backend would have a chat app that would respond to the options. 
+The bot is built the model-view-controller (MVC) design pattern.
 
 ## Live Site
-[akinsbotrestarant]([https://](https://a-restaurant-chatbot.onrender.com/))
+[akinsbotrestarant](https://a-restaurant-chatbot.onrender.com/)
 
 ## Technologies Used
 Node.js
@@ -12,6 +13,17 @@ MongoDB
 Socket.IO
 Express-Session
 Moment.js
+
+## Project Setup
+
+>  Download or clone the repository.
+
+>  Run `npm install` to install all packages used.
+
+> Run `npm run server` to start the app in the development mode.
+
+> Open `http://localhost:3000` to view it in the browser.
+
 
 ## Features
 **The chatbot has the following features**
